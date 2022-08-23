@@ -1,0 +1,102 @@
+ .abc{
+   
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  align-items: left;
+  align-content: left;
+
+}
+.t{
+ background-image: url('https://th.bing.com/th/id/R.f5d10cc55525d9084a01f6ea6c983798?rik=pH8ZdeSTCtyzug&riu=http%3a%2f%2feskipaper.com%2fimages%2fsimple-pattern-backgrounds-1.jpg&ehk=aRg2Bol79ccMv6Uy6E80qld8KQ69U14Lsd4QadHAyRI%3d&risl=&pid=ImgRaw&r=0');
+}
+
+.card:hover {
+ box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+body{
+  margin: 0px;
+  padding: 0px; 
+  box-sizing: border-box;}
+
+
+.main{
+  width:100%;
+}
+nav{
+ background-image:url('https://th.bing.com/th/id/OIP.AuvCjpO3gIgsCqxvxLy9rAAAAA?pid=ImgDet&w=300&h=200&rs=1');
+ background-position: left;
+  
+  background-repeat: no-repeat;
+  height: 10vh;
+ 
+
+ width: 100%;
+  background-color: rgb(20, 19, 19);
+  height: 90px;
+  line-height: 80px;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  float :left;
+ margin-right: 20px;
+  text-align: right;
+  padding-right: 10px;
+}
+.logo a{
+  
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s all ease;
+  float:left;
+  text-align: left;
+  padding-left: 150px;
+  padding-right: 50px;
+}
+ul{
+  margin: 0px;
+
+}
+
+
+
+ul li a:hover{
+  color:red;
+}
+
+.content{
+  position: absolute;
+  align-content: center;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color:rgb(168, 217, 245);
+}
+.content h1{
+  font-size: 40px;
+ text-decoration-line:underline;
+ text-decoration-color:blanchedalmond;
+  color: beige;
+}
+
+.content p{
+  padding: 0px 80px;
+  font-size:30pz;
+  font-style: italic;
+  margin-right: 50px;
+  
+  
+}
+
+li{
+  text-align:center;
+}

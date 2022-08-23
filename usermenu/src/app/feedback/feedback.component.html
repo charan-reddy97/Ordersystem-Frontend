@@ -1,0 +1,54 @@
+<header class="header">
+
+  <a  class="logo"><img src=""></a>
+  <nav class="nav-items">
+   
+   <a [routerLink]="['/']" style=" color: rgb(250, 250, 250); font-family:Arial, Helvetica, sans-serif; font-size: 20px">Menu</a>
+
+   <a [routerLink] = "['/cart']" style=" color: rgb(252, 249, 249); font-family:Arial, Helvetica, sans-serif; font-size: 20px">CART</a>
+   
+   <a [routerLink]="['/aboutus']" style=" color: rgb(252, 249, 249); font-family:Arial, Helvetica, sans-serif; font-size: 20px">ABOUT US</a>
+
+   <a [routerLink] = "['/feedback']" style=" color: rgb(252, 249, 249); font-family:Arial, Helvetica, sans-serif; font-size: 20px">FEED BACK</a>
+  </nav>
+</header>
+
+<body>
+
+    <section id="form-section">
+        <h1 class="h1-tag">Your Feedback Is important For Us</h1>
+        <form class="form-content-section">
+            <div class="form-group">
+                <label for="exampleInputText">Name</label>
+                <input type="text" class="form-control" 
+id="exampleInputText" placeholder="Enter Your Name">
+            </div><br/>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" 
+id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">
+We'll never share your email with anyone
+                    else.</small>
+            </div><br/>
+           
+            <div class="form-group">
+                <label for="exampleInputText">Contact Number(Optional)
+</label>
+                <input type="text" class="form-control" 
+id="exampleInputText">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Example textarea
+</label>
+                <textarea class="form-control" 
+id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary myclass" >
+Post Comment</button>
+        </form>
+    </section>
+
+</body>
+

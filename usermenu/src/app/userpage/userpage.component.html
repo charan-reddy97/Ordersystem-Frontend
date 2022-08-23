@@ -1,0 +1,49 @@
+<header class="header">
+
+  <a  class="logo"><img src=""></a>
+  <nav class="nav-items">
+   
+   <a [routerLink]="['/userpage']" style=" color: rgb(250, 250, 250); font-family:Arial, Helvetica, sans-serif; font-size: 20px">Menu</a>
+
+   <a [routerLink] = "['/cart']" style=" color: rgb(252, 249, 249); font-family:Arial, Helvetica, sans-serif; font-size: 20px">CART</a>
+   
+   <a [routerLink]="['/aboutus']" style=" color: rgb(252, 249, 249); font-family:Arial, Helvetica, sans-serif; font-size: 20px">ABOUT US</a>
+
+   <a [routerLink] = "['/feedback']" style=" color: rgb(252, 249, 249); font-family:Arial, Helvetica, sans-serif; font-size: 20px">FEED BACK</a>
+  </nav>
+</header>
+
+       
+<div class="t">
+  <div class="abc">
+      <div class="row"> 
+    <div class="col-4"  *ngFor="let dish of dishes ; let i=index">
+      <div class="card my-3">
+          <img class="card-img-top" [src]="'http://localhost:7709/images/' + dish.coverImage" alt="Food Menu">
+          <div class="card-body" style="font-size:medium; font-family: Arial, Helvetica, sans-serif;">
+              <h2 class="card-title">Dish_Name:{{dish.dish_Name}}</h2>
+              <p class="card-text" >  
+                Dish_id:{{dish.id}}<br/>
+                Discription:{{dish.discription}}<br/>
+                Price{{dish.price}}
+              </p>
+          </div>
+          <div class="card-footer" style="background-color:antiquewhite ;">
+              <button (click)="addtoCart(dish)" style="background-color:blue; font-color:white">ADD TO CART</button>
+          </div>
+
+      </div>
+  </div>
+</div>
+<ul style="columns: 3;"> 
+
+
+<li  style="width:18rem; ">
+ 
+</li>
+
+</ul> 
+
+
+</div>
+</div>
